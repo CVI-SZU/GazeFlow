@@ -1,4 +1,4 @@
-# NFaze
+# GazeFlow
 This is the implement of our paper.
 
 
