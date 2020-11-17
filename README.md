@@ -1,5 +1,5 @@
 # GazeFlow
-This is the implement of our paper.
+The offical implementation of our paper.
 
 
-## Our code is coming soon...
+## The code will be available soon.
