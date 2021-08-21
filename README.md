@@ -100,7 +100,7 @@ CUDA_VISIBLE_DEVICES=0 python train.py --BATCH-SIZE=32 --images-width=128 --imag
 
 ## Pretrained Models
 
-1. [ETH-XGaze-Redirection](https://drive.google.com/file/d/12eYcS4kVXVjF3gJdtWx7LFKvmQ_6Tspp/view?usp=sharing)
+1. Google Drive: [ETH-XGaze](https://drive.google.com/file/d/12eYcS4kVXVjF3gJdtWx7LFKvmQ_6Tspp/view?usp=sharing)
 
 
 ## Reference
