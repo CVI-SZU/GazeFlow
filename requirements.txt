@@ -1,0 +1,5 @@
+TFGENZOO==1.2.4.post7
+tf-nightly-gpu
+tfp-nightly
+tqdm
+Pillow
