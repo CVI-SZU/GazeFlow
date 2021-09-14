@@ -14,6 +14,7 @@ The offical implementation of our paper *GazeFlow: Gaze Redirection with Normali
 
 ![](https://demo-1251505139.cos.ap-beijing-1.myqcloud.com/images/model_forward.png)
 
+---
 
 ## Overview
 
@@ -23,10 +24,14 @@ The offical implementation of our paper *GazeFlow: Gaze Redirection with Normali
 - `imgs`: Images for testing. Accessing more images for testing can be found in `GazeFlowDemo.ipynb`.
 - `GazeFlowDemo.ipynb`: A pre-trained GazeFlow demo for testing. [DEMO](https://github.com/ackness/GazeFlow_demo) is now available.
 
+---
+
 ## Package requirements
 
 Our codes are based on `tensorflow 2.3` and open source normalizing flows package `TFGENZOO`. Codes should work fine on `tensorflow ≥ 2.3`. 
 You can easily build your environment by ` pip install -r requirements.txt `.
+
+---
 
 ## Data
 
@@ -60,6 +65,14 @@ If you want to train your own dataset, just keep the input format like this:
 }
 ```
 
+#### Our preprocessed dataset
+
+1. MPIIGaze dataset is uploaded to [GoogleDrive](https://drive.google.com/file/d/1EhxrEmu-Kn1rECmJxtm0JlfCqtDGz4sa/view?usp=sharing).
+
+2. The other processed datasets (UT, ETH-XGaze) are lost. But for those full face images, our methods just need to crop and normalize the eye image from the face image. You can fellow the step in `data/data_preprocess.py` to process your own dataset.
+
+---
+
 ## Train
 
 ```bash
@@ -74,7 +87,9 @@ We provided a ETH-XGaze pre-trained GazeFlow demo for gaze redirection. Check ou
 CUDA_VISIBLE_DEVICES=0 python train.py --BATCH-SIZE=32 --images-width=128 --images-height=128 --K=18 --L=5 --condition-shape=4 --total-take=34000 --datapath=/path_to_your_preprocessed_data/mpiiface.tfrecords
 ```
 
-## More Image
+---
+
+## More Images
 
 ### Samples
 
@@ -98,10 +113,14 @@ CUDA_VISIBLE_DEVICES=0 python train.py --BATCH-SIZE=32 --images-width=128 --imag
 
 ![](_assets/eth-xgaze-full-face-edit.png)
 
+---
+
 ## Pretrained Models
 
 1. Google Drive: [ETH-XGaze](https://drive.google.com/file/d/12eYcS4kVXVjF3gJdtWx7LFKvmQ_6Tspp/view?usp=sharing)
 
+
+---
 
 ## Reference
 
