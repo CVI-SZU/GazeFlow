@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
-from typing import Callable, Dict
-
 import tensorflow as tf
 from tensorflow.keras import layers
+from typing import Callable, Dict
 
 from flows.affine_coupling import AffineCouplingMask
 from flows.flowbase import FlowComponent

@@ -1,8 +1,9 @@
 import tensorflow as tf
+from tensorflow.keras import layers
+
 from flows.utils.conv import Conv2D
 from flows.utils.conv_zeros import Conv2DZeros
 from layers.spadebn import SpadeBN
-from tensorflow.keras import layers
 
 Layer = layers.Layer
 

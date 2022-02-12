@@ -1,7 +1,6 @@
-from typing import Tuple
-
 import tensorflow as tf
 from tensorflow.keras import layers
+from typing import Tuple
 
 Layer = layers.Layer
 

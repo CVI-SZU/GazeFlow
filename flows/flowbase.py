@@ -1,8 +1,7 @@
-from abc import ABCMeta, abstractmethod
-from typing import List
-
 import tensorflow as tf
+from abc import ABCMeta, abstractmethod
 from tensorflow.keras import layers
+from typing import List
 
 Layer = layers.Layer
 

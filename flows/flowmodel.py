@@ -1,7 +1,6 @@
-from typing import Dict
-
 import tensorflow as tf
 from tensorflow.keras import Model
+from typing import Dict
 
 from flows.actnorm import Actnorm
 from flows.affine_coupling import AffineCoupling
