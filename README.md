@@ -119,7 +119,7 @@ CUDA_VISIBLE_DEVICES=0 python train.py --BATCH-SIZE=32 --images-width=128 --imag
 
 1. Google Drive: [ETH-XGaze](https://drive.google.com/file/d/12eYcS4kVXVjF3gJdtWx7LFKvmQ_6Tspp/view?usp=sharing)
 
-<<<<<<< HEAD
+
 ## Overview
 
 - `model.py`: GazeFlow model.
@@ -206,8 +206,7 @@ CUDA_VISIBLE_DEVICES=0 python train.py --BATCH-SIZE=32 --images-width=128 --imag
 ## Pretrained Models
 
 1. [ETH-XGaze-Redirection](https://drive.google.com/file/d/12eYcS4kVXVjF3gJdtWx7LFKvmQ_6Tspp/view?usp=sharing)
-=======
->>>>>>> 7036f81a2e0e036f1957beec4098a1fb78c1249c
+
 
 ---
 
