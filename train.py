@@ -17,10 +17,11 @@ import tensorflow as tf
 
 import tensorflow_probability as tfp
 from tensorflow.keras import metrics, optimizers
-import transformer_schedule
-from helper import bits_x
-from model import Glow
-from layers import ConnectedResNet
+from optimizers import transformer_schedule
+from flows.utils.util import bits_x
+from models.model import Glow
+from models.resnet import ConnectedResNet
+
 
 
 # gpu growth constraint

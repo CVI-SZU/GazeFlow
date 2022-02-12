@@ -1,14 +1,14 @@
+import tensorflow as tf
+from tensorflow.keras import Model
 from typing import Dict
 
-import tensorflow as tf
 from flows import Actnorm, AffineCouplingMask, FlowModule, Inv1x1Conv
 from flows.cond_affine_coupling import ConditionalAffineCoupling
 from flows.factor_out import FactorOut, FactorOutBase
 from flows.quantize import LogitifyImage
 from flows.squeeze import Squeeze
-
-from tensorflow.keras import Model
 from models.resnet import ConnectedResNet, ShallowConnectedResNet
+
 
 class Glow(Model):
     def __init__(self, K, L, conditional=True, width=512, connect_type="whole", activation="softplus", condition_shape=(5,)):

@@ -1,8 +1,7 @@
-from enum import Enum
-from typing import Callable
-
 import tensorflow as tf
+from enum import Enum
 from tensorflow.keras import layers
+from typing import Callable
 
 from flows.flowbase import FlowComponent
 

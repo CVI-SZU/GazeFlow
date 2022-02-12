@@ -1,10 +1,12 @@
-import os
 import argparse
+import numpy as np
+import os
 import pickle
 import tensorflow as tf
-import numpy as np
 import tqdm
+
 from utils import *
+
 
 def _bytes_feature(value):
   """Returns a bytes_list from a string / byte."""

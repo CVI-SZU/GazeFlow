@@ -1,11 +1,12 @@
+import argparse
 import numpy as np
 import tensorflow as tf
 import tensorflow_probability as tfp
-from model import Glow
-from layers import ConnectedResNet
-import argparse
-from pathlib import Path
 from PIL import Image
+from model import Glow
+from pathlib import Path
+
+from models.resnet import ConnectedResNet
 
 # hyper parameters
 parser = argparse.ArgumentParser(description='Process some integers.')

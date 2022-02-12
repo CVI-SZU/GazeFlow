@@ -1,12 +1,11 @@
+import numpy as np
 import os
 import pickle
 import random
-
-import numpy as np
-from tqdm import tqdm
-
 import tensorflow as tf
 import tensorflow_probability as tfp
+from tqdm import tqdm
+
 from models.gazeflow import Glow
 
 

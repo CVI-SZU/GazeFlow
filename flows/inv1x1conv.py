@@ -1,7 +1,6 @@
-from typing import Tuple
-
 import numpy as np
 import tensorflow as tf
+from typing import Tuple
 
 from flows.flowbase import FlowComponent
 
